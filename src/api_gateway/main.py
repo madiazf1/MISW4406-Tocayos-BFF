@@ -52,7 +52,7 @@ def create_app():
                 headers={"Content-Type": "application/json"},
                 json=payload
             )
-            saga_id = resp.json().get("sagaId")
+            saga_id = resp.json().get("id")
             print(f"Received sagaId: {saga_id}")
     
 
