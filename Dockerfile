@@ -11,4 +11,4 @@ COPY src/ ./src/
 ENV PYTHONPATH=/app/src
 
 EXPOSE 5010
-CMD ["python", "src/saga_tracker/main.py"]
+CMD ["python", "src/api_gateway/main.py"]
